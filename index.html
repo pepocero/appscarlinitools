@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Galería de aplicaciones web Carlinitools: acceso directo a cada herramienta."
+    />
+    <title>Carlinitools — Apps a medida</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#app-grid">Saltar al contenido</a>
+    <div class="page-bg" aria-hidden="true"></div>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <h1 class="site-brand">Carlinitools</h1>
+        <p class="site-tagline">Apps web a medida</p>
+        <p class="site-lead">
+          Herramientas pensadas para uso real: desde lectura y productividad hasta gestión
+          profesional. Elige una app y ábrela en una pestaña nueva.
+        </p>
+      </div>
+    </header>
+    <main class="site-main" id="main">
+      <div id="app-grid" class="app-grid" role="list"></div>
+    </main>
+    <footer class="site-footer">
+      <p class="footer-note">
+        Enlaces externos · Cada aplicación tiene su propia política de privacidad y condiciones de uso.
+      </p>
+    </footer>
+    <script src="apps.js"></script>
+  </body>
+</html>
