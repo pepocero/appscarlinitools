@@ -40,6 +40,15 @@ window.CARLINITOOLS_APPS = [
     image: "images/conversor.png",
   },
   {
+    slug: "pdf",
+    title: "Editor PDF",
+    url: "https://pdf.carlinitools.com/",
+    description:
+      "Editor PDF en el navegador: añade imágenes y texto, resalta, dibuja y usa formas. Pensado sobre todo para ordenador; en móvil puede usarse, aunque la interfaz se ve mejor en pantalla grande.",
+    monogram: "PDF",
+    image: "images/pdf.png",
+  },
+  {
     slug: "elpot",
     title: "El Pot de la Sort",
     url: "https://elpotdelasort.carlinitools.com",
