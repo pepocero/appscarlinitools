@@ -292,6 +292,9 @@ body {
 .card-visual--dontorrent {
   background-image: linear-gradient(135deg, #0f172a 0%, #334155 50%, #00d9ff 100%);
 }
+.card-visual--trackers {
+  background-image: linear-gradient(135deg, #0a1628 0%, #1e3a5f 50%, #06ffa5 100%);
+}
 
 .card-body {
   display: flex;

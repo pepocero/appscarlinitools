@@ -120,6 +120,15 @@ window.CARLINITOOLS_APPS = [
     monogram: "DT",
     image: "images/dontorrent.png",
   },
+  {
+    slug: "trackers",
+    title: "Trackers Merger",
+    url: "https://trackers.carlinitools.com/",
+    description:
+      "Unifica listas públicas de BitTorrent desde ngosang/trackerslist, elimina duplicados y deja un bloque listo para copiar en qBittorrent, Transmission, Deluge, aria2 y clientes compatibles.",
+    monogram: "TM",
+    image: "images/trackers.png",
+  },
 ];
 
 function renderGallery() {
