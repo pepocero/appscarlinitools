@@ -129,6 +129,15 @@ window.CARLINITOOLS_APPS = [
     monogram: "TM",
     image: "images/trackers.png",
   },
+  {
+    slug: "menubuilder",
+    title: "MenuBuilder",
+    url: "https://menubuilder.carlinitools.com/",
+    description:
+      "Crea y publica cartas de menú digitales para restaurantes, bares y cafeterías: editor visual, importación OCR, plantillas, QR público y exportación PNG/PDF.",
+    monogram: "MB",
+    image: "images/menubuilder.png",
+  },
 ];
 
 function renderGallery() {
