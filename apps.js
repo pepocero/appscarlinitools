@@ -4,6 +4,24 @@
  */
 window.CARLINITOOLS_APPS = [
   {
+    slug: "papertomenu",
+    title: "Paper To Menu",
+    url: "https://papertomenu.com/",
+    description:
+      "Crea y publica cartas de menú digitales para restaurantes, bares y cafeterías: editor visual, importación OCR, plantillas, QR público y exportación PNG/PDF.",
+    monogram: "PM",
+    image: "images/papertomenu.png",
+  },
+  {
+    slug: "festio",
+    title: "Festio",
+    url: "https://festio.carlinitools.com/",
+    description:
+      "Diseña, personaliza y comparte invitaciones digitales de cumpleaños, bodas, cenas y eventos. Elegante, rápido y pensado para el móvil.",
+    monogram: "FE",
+    image: "images/festio.png",
+  },
+  {
     slug: "comics",
     title: "ComicRead",
     url: "https://comics.carlinitools.com",
@@ -20,15 +38,6 @@ window.CARLINITOOLS_APPS = [
       "Marcador en vivo: nuevos partidos, próximos encuentros, historial, estadísticas y configuración.",
     monogram: "GS",
     image: "images/gamescore.png",
-  },
-  {
-    slug: "infoplex",
-    title: "InfoPlex",
-    url: "https://infoplex.carlinitools.com",
-    description:
-      "Estadísticas de tus bibliotecas Plex con datos almacenados de forma eficiente.",
-    monogram: "IP",
-    image: "images/infoplex.png",
   },
   {
     slug: "conversor",
@@ -128,15 +137,6 @@ window.CARLINITOOLS_APPS = [
       "Unifica listas públicas de BitTorrent desde ngosang/trackerslist, elimina duplicados y deja un bloque listo para copiar en qBittorrent, Transmission, Deluge, aria2 y clientes compatibles.",
     monogram: "TM",
     image: "images/trackers.png",
-  },
-  {
-    slug: "menubuilder",
-    title: "MenuBuilder",
-    url: "https://menubuilder.carlinitools.com/",
-    description:
-      "Crea y publica cartas de menú digitales para restaurantes, bares y cafeterías: editor visual, importación OCR, plantillas, QR público y exportación PNG/PDF.",
-    monogram: "MB",
-    image: "images/menubuilder.png",
   },
 ];
 
